@@ -7,6 +7,10 @@ body{
      
 
 }
+
+h1{
+    top: 0;
+}
 ul li{
     text-decoration: none;
     color: black;
@@ -21,12 +25,27 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    // flex-direction: column;
 }
-main__list{
+.main__list{
     width: 50%;
     height: 50%;
     position: absolute;
     top: 30%;
+    & li{
+        height: 35px;
+        width: 100%;
+    }
 }
+
+.item{
+    color:green;
+}
+
+.checked{
+    background-color: aqua;
+    color:red;
+    text-decoration: line-through;
+}
+
 
