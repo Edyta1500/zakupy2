@@ -7,4 +7,4 @@ item.addEventListener('click', (e)=>{
     if(e.target.classList.contains('item')){
         e.target.classList.add('checked')
        }
-    })
+    });
