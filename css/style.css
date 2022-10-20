@@ -13,8 +13,7 @@ ul li {
 
 .main {
   position: relative;
-  width: 100vh;
-  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,9 +23,14 @@ ul li {
   position: absolute;
   top: 10%;
 }
+.main__list--item {
+  margin: 0;
+  padding: 0;
+}
 .main__list li {
   height: 35px;
   width: 100%;
+  list-style: none;
 }
 
 .item {
